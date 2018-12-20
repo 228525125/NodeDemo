@@ -1,0 +1,39 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel babel/src -d babel/lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/228525125/node.git"
+  },
+  "keywords": [
+    "keruiadmin12369"
+  ],
+  "author": "chenxian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/228525125/node/issues"
+  },
+  "homepage": "https://github.com/228525125/node#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "grunt": "^1.0.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^2.0.0",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
